@@ -1,33 +1,55 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Angel
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Muelas Martinez
+about: Hi, my name is Angel Muelas. I'm looking for a challenging job that makes me learn new things every day.
+       Good work environment, with team members I can learn from and I can help them.
+       Java, JavaScript technologies are the most motivating ones for me right now
+position: Senior Software Engineer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1978
+  location: Guadalajara
 
 experience:
-- company: Company A
+- company: Sogeti
   position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+  timeperiod: since October 2005 to April 2007
+  description: Development over Java J2EE for different clients of telecom sector (Movistar, France Telecom...) and transportation (Iberia)
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Panel Sistemas Informáticos
+  position: Software Engineer
+  timeperiod: since May 2007 to January 2012
+  description: Working on different projects mainly for Orange Telecom, all of which developed with Java and JavaScript, with JSP and JQuery on the frontend.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Factoria ETSIA
+  position: Senior Software Engineer
+  timeperiod: since January 2012 to January 2015
+  description: Part of the architecture team working on both internal and external projects for different clients, from requirements and functional analysis to the architecture and complex designs.
+
+- company: Packlink
+  position: Senior Software Engineer
+  timeperiod: since February 2015 - March 2016
+  description:
+      Part of the architecture team that was involved in migrating from the old monolithic PHP platform to a new micro-service paradigm multilanguage one, communicating events with a RabbitMQ as a messaging system, docker and configuration in the cloud.
+      Managing a remote team in Ukraine that was in charge of carriers integrations leaving the team to focus on the architecture.
+
+- company: Momit
+  position: Senior Software Engineer
+  timeperiod: since April 2016 - November 2016
+  description:
+    - Leading the engineering team in order to improve the current platform with a new architecture based on micro-services and NoSQL database. All orchestrated with spring boot framework taking advantage of its implementations for cloud computing as spring cloud config, spring eureka... and with RabbitMQ as a messaging service.
+    - As the Head of Engineering, in charge of the communication with clients (Viesgo, Delonghi...) and coordinating the engineering team. Working closely also with the hardware team lead.
+
+- company: Denizen (BBVA)
+  position: Senior Software Engineer
+  timeperiod: since December 2016 to actually
+  description:
+    - Taking part in a new Fintech joint venture of BBVA and belonging to a multidisciplinary team, working with a micro-services paradigm designed with NodeJS, RabbitMQ and MongoDB as the main tech stack for the backend and React and AngularJS for the frontend. I was heavily in charge of designing scalable, highly available and service-oriented new bank.
+    - In charge of communication with our bank providers and helping DevOps to release our sprints in a smooth way.
+    - Onboarding and mentoring new members.
+    - Following TDD good practices, with Jest, Mocha, and Tape. Best practices on code linting and trying to sprint improve our platform and fixing tech debt on every sprint.
 
 education:
 - degree: Master of Arts
@@ -41,52 +63,50 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
+- name: Java and Spring framework.
+  level: 90
 - name: JavaScript
-  level: 97
+  level: 85
 - name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
+  level: 90
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  level: 65
+- name: MongoDB
+  level: 75
+- name: SQL
+  level: 70
+- name: Management
+  level: 50
+knowledge: Also SUN Microsystems Certified Programmer for Java (310-035) and SUN Microsystems Certified Web Component Developer for Java (CX-310-081).
+  (Spanish mother tongue and advanced English level).
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: blue-pencil
+  platform: NodeJS
+  description: Mask JSON values in an easy way.
+  url: https://github.com/myolnir/blue-paint
 
 hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
+- name: Sports
+  iconClass: fa fa-gamepad
   url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: bubble-gum
+  description: Work with nested objects is easy with a bubble-gum-tool.
+  url: https://github.com/nquicenob/bubble-gum-tools
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: angel.muelas@gmail.com
+  phone: +34665840172
+  street: C/Trafalgar 12
+  city: Madrid
+  website: myolnir.github.io
+  github: myolnir
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
